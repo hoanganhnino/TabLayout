@@ -15,8 +15,7 @@ import com.example.hoanganh.tablayout.R;
 
 public class ThirdFragment extends Fragment {
     public static ThirdFragment newInstance() {
-        ThirdFragment fragment = new ThirdFragment();
-        return fragment;
+        return new ThirdFragment();
     }
 
     @Nullable
